@@ -1,0 +1,27 @@
+
+.table{
+	width: 100%; 
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+.tableTitle,
+.tableData{
+	border: 1px solid #ddd;
+  padding: 8px; 
+  text-align: center;
+}
+
+.tableTitle{
+	background-color: black;
+    color: azure;
+	font-weight: bold;
+}
+
+tbody tr{
+	color: black;
+}
+
+tbody tr:nth-child(even){
+	background-color: lightgrey; 
+}
