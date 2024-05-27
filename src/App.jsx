@@ -23,7 +23,7 @@ function App() {
   } );
 
   useEffect(()=>{
-        localStorage.setItem("feedback", feedback)
+        localStorage.setItem("feedback", JSON.stringify(feedback))
   },[feedback])
   
 
