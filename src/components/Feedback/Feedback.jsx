@@ -1,7 +1,7 @@
 // import css from "./Feedback.module.css"
 import PropTypes from 'prop-types';
 
-const Feedback = ({good, neutral, bad, totalFeedback,positiveFeedback}) => {
+const Feedback = ({good, neutral, bad, totalFeedback, positiveFeedback}) => {
   return (
     <div>
         <p>Good: {good} </p>
@@ -17,7 +17,7 @@ Feedback.propTypes = {
         good: PropTypes.number.isRequired,
         neutral: PropTypes.number.isRequired,
         bad: PropTypes.number.isRequired,
-        total: PropTypes.number.isRequired,
+        totalFeedback: PropTypes.number.isRequired,
         positiveFeedback: PropTypes.number.isRequired
 }
 
