@@ -5,10 +5,7 @@ import Options from "./components/Options/Options";
 import Notification from "./components/Notification/Notification";
 
 
-// const createInitialFeedback = {
-//   const localFeedback = localStorage.getItem ("feedback")
-//   return localFeedback ? JSON.parse(localFeedback) : 0
-// }
+
 
 function App() {
 
